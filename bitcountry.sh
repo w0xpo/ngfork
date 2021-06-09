@@ -12,7 +12,7 @@ bash_profile=$HOME/.bash_profile
 if [ -f "$bash_profile" ]; then
     . $HOME/.bash_profile
 fi
-sleep 1 && curl -s https://api.nodes.guru/logo.sh | bash && sleep 3
+sleep 1 && curl -s https://raw.githubusercontent.com/w0xpo/ngfork/main/logo.sh | bash && sleep 3
 
 function setupVars {
 	if [ ! $BITCOUNTRY_NODENAME ]; then
